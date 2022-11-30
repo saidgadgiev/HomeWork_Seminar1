@@ -14,10 +14,10 @@ int resultat = num % 2;
 
 if (resultat == 0)
 { 
-    Console.WriteLine($"{num} -> да");
+    Console.WriteLine($"{num} -> четное");
 }
 else
 { 
-    Console.WriteLine($"{num} -> нет");
+    Console.WriteLine($"{num} -> не четное");
 }
 
