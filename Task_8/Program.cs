@@ -7,7 +7,7 @@
 */
 
 Console.Write("Введите любое положительное число! - ");
-string num1_str = Console.ReadLine();
+string num1_str = Console.ReadLine()??"";
 int num1 = Convert.ToInt32(num1_str);
 
 for (int i = 2; i <= num1; i=i+2)

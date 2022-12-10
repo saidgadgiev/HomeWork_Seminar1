@@ -6,11 +6,11 @@ a = 2 b = 10 -> max = 10
 a = -9 b = -3 -> max = -3 */
 
 Console.Write("Введите первое число! - ");
-string num_str1 = Console.ReadLine();
+string num_str1 = Console.ReadLine()??"";
 int num1 = Convert.ToInt32(num_str1);
 
 Console.Write("Введите второе число! - ");
-string num_str2 = Console.ReadLine();
+string num_str2 = Console.ReadLine()??"";
 int num2 = Convert.ToInt32(num_str2);
 
 if (num1 > num2)
